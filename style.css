@@ -1,6 +1,41 @@
 body{
     background-color: rgb(205, 255, 208);
+   
 }
-img{
-    margin: auto;
+h1{
+    text-align: center;
+    font-size: 42px;
+    /* color: goldenrod; */
+}
+.container{
+    background-color: rgb(1, 112, 75);
+    max-width: 1000px;
+    height: 550px;
+    margin: 20px auto;
+}
+
+.recipe-img{
+    height: 250px;
+    width: 250px;
+    /* margin: 10px; */
+
+}
+.recipes-list{
+    display: flex;
+    padding-top: 20px;
+    list-style: none;
+}
+.bg{
+    width: 270px;
+    margin: 10px auto; 
+    background-color: rgb(3, 241, 162);
+    padding: 10px;
+    border-radius: 10px;
+}
+li:hover{
+    background-color: rgb(24, 214, 125);
+}
+a{
+    text-decoration: none;
+    color: black;
 }
